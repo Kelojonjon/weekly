@@ -12,6 +12,9 @@ A very basic console "rehearser helper"
 
 ## Usage:
 - Usage is trough pythons "argparser", install it in you PATH for easy use!
+- The entry point is found from "main.py"
+- If you decide not to install it into you PATH, you can use it with --> main.py <commmand>
+
 - Contains the following commands:
 
 - show  #Shows a view of the current weeks progress, Also automaticly updates week, score, and your streak 🔥, depending on your "completion" status
