@@ -12,8 +12,7 @@ class Weekly():
     
     def create_week_id(self):
         today = date.today()
-        week = int(date.today().strftime("%W"))
-        year = today.year
+        year, week, _ = today.isocalendar()
         week_id = (year * 100) + week
         return week_id
 

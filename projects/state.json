@@ -1,17 +1,16 @@
 {
-  "week_id": 202552,
+  "week_id": 202601,
   "score": 1,
-  "streak": 0,
-  "topic": "Exponential growth & decay",
-  "completed": true,
+  "streak": 1,
+  "topic": "Functions",
+  "completed": false,
   "rotation": [
     "Equations",
     "Multiplying & factoring",
     "Quadratics",
     "Systems of equations",
     "Exponents & radicals",
-    "Sequences",
-    "Functions"
+    "Sequences"
   ],
   "done_topics": [
     "Quadratic functions & equations",
@@ -23,6 +22,7 @@
     "Geometry",
     "Absolute value & piecewise functions",
     "Solving equations & inequalities",
-    "Exponential growth & decay"
+    "Exponential growth & decay",
+    "Functions"
   ]
 }
