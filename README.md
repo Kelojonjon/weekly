@@ -33,6 +33,15 @@ The basic "workflow" is supposed to be bacily a mix of 'show' and 'done'
 If you want to have spaces in your topic names use quotes around your 'add' argument --> add "topic1:the topic2: the topic3:topic of the week:topic4"
 
 
+## Extra features:
+
+- Feature: Persistent Momentum (Soft Resume)
+- The system prioritizes "The Last Known Good State."
+- If you are forced offline by real-life interrupts (vacations, hardware failure, or 5-year naps), your streak remains "frozen" in time. 
+- As long as your last recorded week was a success, the system allows you to resume your Algebra loop without psychological penalty. 
+- Discipline is a marathon, not a frame-perfect speedrun.
+
+
 ## Stuff
 
 - This is a small quick project done in 1 day, for my personal use, except bugs!
