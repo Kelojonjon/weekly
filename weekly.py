@@ -188,9 +188,9 @@ class Weekly():
 
     def streak_flame_multiplier(self):
         streak = self.project_handler.state.get("streak", 0)
-            flames_count = (streak // 4) + 1
-            final_count = min(flames_count, 6)
-            return "🔥" * final_count
+        flames_count = (streak // 4) + 1
+        final_count = min(flames_count, 6)
+        return "🔥" * final_count
 
 
     def visual(self):
