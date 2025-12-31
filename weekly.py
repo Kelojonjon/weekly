@@ -184,7 +184,14 @@ class Weekly():
     def show(self):
         self.update()
         self.visual()
-        
+    
+
+    def streak_flame_multiplier(self):
+        streak = self.project_handler.state.get("streak", 0)
+            flames_count = (streak // 4) + 1
+            final_count = min(flames_count, 6)
+            return "🔥" * final_count
+
 
     def visual(self):
         week_id = self.project_handler.state.get("week_id")
@@ -196,12 +203,13 @@ class Weekly():
         week_id_str = str(week_id)
         year = week_id_str[:4]
         week = week_id_str[4:]
-        
+    
+        streak_flames = self.streak_flame_multiplier()
         status = "Weekly completed hurray!" if weekly_done else "Weekly not completed :("
         
         print(f"\n---- WEEK {week} / {year} ----")
         print(f"Score  : {score}")
-        print(f"Streak : {streak} 🔥")
+        print(f"Streak : {streak} {streak_flames}")
         print(f"Status : {status}")
         print(f"Topic  : {topic}")
         print("------------------------")  
